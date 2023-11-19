@@ -74,7 +74,8 @@ body {
     margin-top: 3px;
 }
 
-.input-field span, .input-field i {
+.input-field span, 
+.input-field i {
     color: #cbd5e1;
     font-size: 1.3rem;
     padding: 0.6rem 1rem;
@@ -89,7 +90,8 @@ body {
     padding: 0 0.5rem;
 }
 
-.input-field input::-webkit-outer-spin-button, .input-field input::-webkit-inner-spin-button {
+.input-field input::-webkit-outer-spin-button, 
+.input-field input::-webkit-inner-spin-button {
     appearance: none;
 }
 
@@ -143,7 +145,9 @@ body {
     justify-content: center;
     align-items: center;
     gap: 0.6rem;
-    font-size: 0.875rem;text-decoration: none;
+    font-size: 0.875rem;
+    text-decoration: none;
+    transition: color 0.5s;
 }
 
 #more_info a:hover {
