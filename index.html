@@ -18,9 +18,7 @@
 
     <section id="calculator">
       <form id="form">
-        <h1 id="title">
-          Calculadora - IMC
-        </h1>
+        <h1 id="title">Calculadora - IMC</h1>
 
         <div class="input-box">
           <label for="weight">
@@ -28,7 +26,7 @@
           </label>
           <div class="input-field">
             <i class="fa-solid fa-weight-scale"></i>
-            <input type="number" name="weight" required>
+            <input type="number" id="weight" name="weight" required>
             <span>
               Kg
             </span>
@@ -41,7 +39,7 @@
           </label>
           <div class="input-field">
             <i class="fa-solid fa-ruler-vertical"></i>
-            <input type="number" name="height" required>
+            <input type="number" step="0.01" id="height" name="height" required>
             <span>
               M
             </span>
